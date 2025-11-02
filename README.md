@@ -29,7 +29,7 @@ And more sensible defaults For Maximum Productivity and Comfort.
    In my case, I save dotfiles at `~/.dotfiles`, which is managed with `git` and `stow`.
 
 ```bash
-ln -sf "$HOME/.dotfiles/vscode/settings.json" $HOME/.config/Code/User/settings.json
+ln -sf "$HOME/.dotfiles/VSCLazy/settings.json" $HOME/.config/Code/User/settings.json
 ```
 
 ## KEYBINDINGS
