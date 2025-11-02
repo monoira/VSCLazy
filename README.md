@@ -22,7 +22,7 @@ And more sensible defaults For Maximum Productivity and Comfort.
 
 ## HOW
 
-1. Clone `VSClazy` directory in your dotfiles.
+1. Clone `VSCLazy` directory in your dotfiles.
 1. Remove `.git`.
 1. Import `prof` profile from [profiles/prof.code-profile](profiles/prof.code-profile).
 1. Symlink global settings.json file for keybindings.  
@@ -75,3 +75,7 @@ ln -sf "$HOME/.dotfiles/VSCLazy/settings.json" $HOME/.config/Code/User/settings.
 | `<leader> c r` | Rename symbol                    |
 | `<leader> c p` | Preview markdown                 |
 | `<leader> c u` | Remove unused imports            |
+
+**Disclaimer**  
+This project is purely a community-driven configuration setup and is not officially affiliated with or endorsed by Visual Studio Code (Microsoft), LazyVim, or any other commercial software vendor.
+Use this configuration at your own risk. I make no guarantees regarding compatibility, stability, or fitness for any particular purpose.
