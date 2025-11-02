@@ -1,8 +1,8 @@
 # VSCLazy
 
 - [VSCLazy](#vsclazy)
-  - [Symlink global settings.json file for keybindings](#symlink-global-settingsjson-file-for-keybindings)
-  - [keybindings](#keybindings)
+  - [HOW](#how)
+  - [KEYBINDINGS](#keybindings)
 
 Visual Studio Code DISTRO With:
 
@@ -10,17 +10,21 @@ Visual Studio Code DISTRO With:
 - [LazyVim like global keybindings](https://www.lazyvim.org/keymaps#bufferlinenvim)
 - Github Copilot & Copilot Chat Extensions
 
-other sensible defaults For Maximum Productivity.
+And more sensible defaults For Maximum Productivity and Comfort.
 
-## Symlink global settings.json file for keybindings
+## HOW
 
-In my case, I save dotfiles at `~/.dotfiles`, which is managed with `git` and `stow`.
+1. place `VSClazy` directory in your dotfiles.
+1. remove `.git`.
+1. Import `prof` profile from [profiles/prof.code-profile](profiles/prof.code-profile).
+1. Symlink global settings.json file for keybindings.  
+   In my case, I save dotfiles at `~/.dotfiles`, which is managed with `git` and `stow`.
 
 ```bash
 ln -sf "$HOME/.dotfiles/vscode/settings.json" $HOME/.config/Code/User/settings.json
 ```
 
-## keybindings
+## KEYBINDINGS
 
 | Keybinding     | Feature                    |
 | -------------- | -------------------------- |
