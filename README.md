@@ -12,6 +12,14 @@ Visual Studio Code DISTRO With:
 
 And more sensible defaults For Maximum Productivity and Comfort.
 
+```bash
+├── profiles
+│   └── prof.code-profile
+├── settings.json
+└── workspaces
+    └── PLACE YOUR WORKSPACES HERE
+```
+
 ## HOW
 
 1. place `VSClazy` directory in your dotfiles.
