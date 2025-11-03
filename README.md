@@ -20,6 +20,32 @@ And more sensible defaults For Maximum Productivity and Comfort.
     └── PLACE YOUR WORKSPACES HERE
 ```
 
+Extensions in [profile](./profiles/prof.code-profile):
+
+- Tailwind CSS IntelliSense
+- Catppuccin for VSCode
+- markdownlint
+- ESLint
+- ES7+ React/Redux/React-Native snippets
+- Prettier - Code formatter
+- GitHub Copilot
+- GitHub Copilot Chat
+- Bash IDE
+- Container Tools
+- Postman
+- Paste JSON as Code
+- YAML
+- Code Spell Checker
+- vscode-icons
+- Vim
+- Markdown All in One
+
+`markdownlint`  
+required for `markdownlint` extension.
+
+`shfmt` and `shellcheck`  
+required for `Bash IDE` extension.
+
 ## HOW
 
 1. Clone `VSCLazy` directory in your dotfiles.
@@ -29,7 +55,7 @@ And more sensible defaults For Maximum Productivity and Comfort.
    In my case, I save dotfiles at `~/.dotfiles`, which is managed with `git` and `stow`.
 
 ```bash
-ln -sf "$HOME/.dotfiles/VSCLazy/settings.json" $HOME/.config/Code/User/settings.json
+ln -sf "$HOME/.dotfiles/VSCLazy/settings.json" "$HOME/.config/Code/User/settings.json"
 ```
 
 ## KEYBINDINGS
