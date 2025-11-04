@@ -5,6 +5,15 @@
   - [HOW](#how)
     - [WORKSPACES](#workspaces)
   - [KEYBINDINGS](#keybindings)
+    - [fixes to vscode](#fixes-to-vscode)
+    - [GOTOs](#gotos)
+    - [hover](#hover)
+    - [warnings and diagnostics](#warnings-and-diagnostics)
+    - [buffers aka editors](#buffers-aka-editors)
+    - [integrated terminal](#integrated-terminal)
+    - [search](#search)
+    - [find](#find)
+    - [code actions](#code-actions)
 
 Visual Studio Code DISTRO With:
 
@@ -71,47 +80,96 @@ ln -sf "$HOME/.dotfiles/VSCLazy/settings.json" "$HOME/.config/Code/User/settings
 
 ## KEYBINDINGS
 
+### fixes to vscode
+
+| Keybinding | Feature                          |
+| ---------- | -------------------------------- |
+| `<C-d>`    | Scroll down half page and center |
+| `<C-u>`    | Scroll up half page and center   |
+| `ctrl n`   | down (when given a dropdown)     |
+| `ctrl p`   | up (when given a dropdown)       |
+
+### GOTOs
+
+| Keybinding     | Feature               |
+| -------------- | --------------------- |
+| `g d`          | Go to definition      |
+| `g D`          | Go to declaration     |
+| `g I`          | Go to implementation  |
+| `g r`          | Go to references      |
+| `g y`          | Go to type definition |
+| `<leader> g g` | Focus source control  |
+
+### hover
+
+| Keybinding | Feature              |
+| ---------- | -------------------- |
+| `K`        | Show hover info      |
+| `g K`      | Show parameter hints |
+
+### warnings and diagnostics
+
+| Keybinding | Feature             |
+| ---------- | ------------------- |
+| `] d`      | Next diagnostic     |
+| `[ d`      | Previous diagnostic |
+| `] e`      | Next error          |
+| `[ e`      | Previous error      |
+| `] w`      | Next warning        |
+| `[ w`      | Previous warning    |
+
+### buffers aka editors
+
+| Keybinding     | Feature                    |
+| -------------- | -------------------------- |
+| `[ b`          | Previous editor tab        |
+| `] b`          | Next editor tab            |
+| `[ B`          | Move editor left           |
+| `] B`          | Move editor right          |
+| `alt {NUMBER}` | go to editor {NUMBER}      |
+| `ctrl w`       | Close current editor       |
+| `<leader> b d` | Close current editor       |
+| `<leader> b r` | Close editors to the right |
+| `<leader> b l` | Close editors to the left  |
+| `<leader> b o` | Close all other editors    |
+| `<leader> e`   | Focus file explorer        |
+
+### integrated terminal
+
+| Keybinding     | Feature                 |
+| -------------- | ----------------------- |
+| `alt {NUMBER}` | go to terminal {NUMBER} |
+| `ctrl t`       | create new terminal     |
+| `ctrl w`       | delete active terminal  |
+
+### search
+
 | Keybinding     | Feature                           |
 | -------------- | --------------------------------- |
-| `<C-u>`        | Scroll up half page and center    |
-| `<C-d>`        | Scroll down half page and center  |
-| `g d`          | Go to definition                  |
-| `g D`          | Go to declaration                 |
-| `g I`          | Go to implementation              |
-| `g r`          | Go to references                  |
-| `g y`          | Go to type definition             |
-| `K`            | Show hover info                   |
-| `g K`          | Show parameter hints              |
-| `] d`          | Next diagnostic                   |
-| `[ d`          | Previous diagnostic               |
-| `] e`          | Next error                        |
-| `[ e`          | Previous error                    |
-| `] w`          | Next warning                      |
-| `[ w`          | Previous warning                  |
-| `[ b`          | Previous editor tab               |
-| `] b`          | Next editor tab                   |
-| `[ B`          | Move editor left                  |
-| `] B`          | Move editor right                 |
-| `<leader> b d` | Close current editor              |
-| `<leader> b r` | Close editors to the right        |
-| `<leader> b l` | Close editors to the left         |
-| `<leader> b o` | Close all other editors           |
-| `<leader> e`   | Focus file explorer               |
 | `<leader> s d` | Toggle problems panel             |
 | `<leader> s k` | Open command palette              |
-| `<leader> s r` | Replace in files                  |
-| `<leader> s s` | Go to symbol in file              |
-| `<leader> s S` | Go to symbol in workspace         |
+| `<leader> s r` | Search and replace                |
+| `<leader> s s` | Go to symbol in current file      |
+| `<leader> s S` | Go to symbol in a whole workspace |
 | `<leader> /`   | Quick text search                 |
+
+### find
+
+| Keybinding     | Feature                           |
+| -------------- | --------------------------------- |
 | `<leader> f p` | Open recent projects (Workspaces) |
 | `<leader> f r` | Open recent files                 |
 | `<leader> f f` | Quick open file                   |
-| `<leader> g g` | Focus source control              |
-| `<leader> c a` | Quick fix                         |
-| `<leader> c A` | Source action                     |
-| `<leader> c r` | Rename symbol                     |
-| `<leader> c p` | Preview markdown                  |
-| `<leader> c u` | Remove unused imports             |
+
+### code actions
+
+| Keybinding     | Feature                                          |
+| -------------- | ------------------------------------------------ |
+| `<leader> c a` | Quick fix                                        |
+| `<leader> c A` | Source action (depends on `Markdown All In One`) |
+| `<leader> c r` | Rename symbol                                    |
+| `<leader> c p` | Preview markdown                                 |
+| `<leader> c u` | Remove unused imports                            |
 
 **Disclaimer**  
 This project is purely a community-driven configuration setup and is not officially affiliated with or endorsed by Visual Studio Code (Microsoft), LazyVim, or any other commercial software vendor.
