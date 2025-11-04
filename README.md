@@ -114,6 +114,7 @@ Due to how vscode works, you must first open vscode at least once for creation o
 | `g D`          | Go to declaration     |
 | `g I`          | Go to implementation  |
 | `g r`          | Go to references      |
+| `g h`          | Go to call hierarchy  |
 | `g y`          | Go to type definition |
 | `<leader> g g` | Focus source control  |
 

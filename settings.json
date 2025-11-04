@@ -34,6 +34,10 @@
       "commands": ["editor.action.goToReferences"]
     },
     {
+      "before": ["g", "h"],
+      "commands": ["editor.showCallHierarchy"]
+    },
+    {
       "before": ["g", "y"],
       "commands": ["editor.action.goToTypeDefinition"]
     },
