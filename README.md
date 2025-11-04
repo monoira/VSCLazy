@@ -65,10 +65,24 @@ required for `Bash IDE` extension.
 1. Remove `.git`.
 1. Import `prof` profile from [profiles/prof.code-profile](profiles/prof.code-profile).
 1. Symlink global settings.json file for keybindings.  
-   In my case, I save dotfiles at `~/.dotfiles`, which is managed with `git` and `stow`.
+   In my case, on linux, I save dotfiles at `~/.dotfiles`, which is managed with `git` and `stow`.
 
 ```bash
 ln -sf "$HOME/.dotfiles/VSCLazy/settings.json" "$HOME/.config/Code/User/settings.json"
+```
+
+For macOS (untested)
+
+```bash
+ln -sf "$HOME/.dotfiles/VSCLazy/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+```
+
+For Windows (untested)
+
+```powershell
+New-Item -ItemType SymbolicLink `
+  -Path "$env:APPDATA\Code\User\settings.json" `
+  -Target "$HOME\.dotfiles\VSCLazy\settings.json"
 ```
 
 ### WORKSPACES
