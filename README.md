@@ -85,6 +85,9 @@ New-Item -ItemType SymbolicLink `
   -Target "$HOME\.dotfiles\VSCLazy\settings.json"
 ```
 
+**NOTE:**
+Due to how vscode works, you must first open vscode at least once for creation of `Code/User` directory.
+
 ### WORKSPACES
 
 - Export your workspaces to [workspaces](./workspaces/) via `File > Save Workspace As...`
