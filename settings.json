@@ -35,7 +35,8 @@
     },
     {
       "before": ["g", "h"],
-      "commands": ["editor.showCallHierarchy"]
+      "commands": ["editor.showCallHierarchy"],
+      "when": "editorHasCallHierarchyProvider && editorTextFocus && !inReferenceSearchEditor"
     },
     {
       "before": ["g", "y"],
