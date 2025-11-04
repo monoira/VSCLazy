@@ -26,7 +26,7 @@
       "commands": ["editor.action.revealDeclaration"]
     },
     {
-      "before": ["g", "I"],
+      "before": ["g", "i"],
       "commands": ["editor.action.goToImplementation"]
     },
     {
