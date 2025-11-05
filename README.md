@@ -100,12 +100,14 @@ Due to how vscode works, you must first open vscode at least once for creation o
 
 ### fixes to vscode
 
-| Keybinding | Feature                          |
-| ---------- | -------------------------------- |
-| `<C-d>`    | Scroll down half page and center |
-| `<C-u>`    | Scroll up half page and center   |
-| `ctrl n`   | down (when given a dropdown)     |
-| `ctrl p`   | up (when given a dropdown)       |
+| Keybinding   | Feature                          |
+| ------------ | -------------------------------- |
+| `<C-d>`      | Scroll down half page and center |
+| `<C-u>`      | Scroll up half page and center   |
+| `ctrl n`     | Down (when given a dropdown)     |
+| `ctrl p`     | Up (when given a dropdown)       |
+| `ctrl i`     | Copilot inline chat `AI`         |
+| `ctrl alt i` | Copilot chat `AI`                |
 
 ### GOTOs
 
@@ -155,11 +157,12 @@ Due to how vscode works, you must first open vscode at least once for creation o
 
 ### integrated terminal
 
-| Keybinding     | Feature                 |
-| -------------- | ----------------------- |
-| `alt {NUMBER}` | go to terminal {NUMBER} |
-| `ctrl t`       | create new terminal     |
-| `ctrl w`       | delete active terminal  |
+| Keybinding     | Feature                           |
+| -------------- | --------------------------------- |
+| `alt {NUMBER}` | go to terminal {NUMBER}           |
+| `ctrl t`       | create new terminal               |
+| `ctrl w`       | delete active terminal            |
+| `ctrl i`       | Copilot inline terminal chat `AI` |
 
 ### search
 
