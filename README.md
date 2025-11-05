@@ -14,6 +14,7 @@
     - [search](#search)
     - [find](#find)
     - [code actions](#code-actions)
+  - [DONATE](#donate)
 
 Visual Studio Code DISTRO With:
 
@@ -192,3 +193,16 @@ Due to how vscode works, you must first open vscode at least once for creation o
 **Disclaimer**  
 This project is purely a community-driven configuration setup and is not officially affiliated with or endorsed by Visual Studio Code (Microsoft), LazyVim, or any other commercial software vendor.
 Use this configuration at your own risk. I make no guarantees regarding compatibility, stability, or fitness for any particular purpose.
+
+## DONATE
+
+I've been creating FOSS / GNU/Linux / nvim / web
+related software for some time now.  
+If you used, forked or took code from one of my projects and you
+would like to support me 👍,  
+you can donate here:
+
+| type                | address                                    |
+| ------------------- | ------------------------------------------ |
+| Bitcoin (SegWit)    | bc1ql8sp9shx4svzlwv0ckzv8s7pphw5upvmt8m2m7 |
+| Ethereum (Ethereum) | 0xf2FCB0Af39DF7A608b76297e45181aF23fEB939F |
