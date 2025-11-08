@@ -10,6 +10,7 @@
     - [hover](#hover)
     - [warnings and diagnostics](#warnings-and-diagnostics)
     - [buffers aka editors](#buffers-aka-editors)
+    - [file explorer](#file-explorer)
     - [integrated terminal](#integrated-terminal)
     - [search](#search)
     - [find](#find)
@@ -56,9 +57,11 @@ Extensions in [profile](./profiles/prof.code-profile):
 
 `markdownlint`  
 required for `markdownlint` extension.
+install it or uninstall `markdownlint` extension.
 
 `shfmt` and `shellcheck`  
 required for `Bash IDE` extension.
+install those or uninstall `Bash IDE` extension.
 
 ## HOW
 
@@ -108,6 +111,8 @@ Due to how vscode works, you must first open vscode at least once for creation o
 | `ctrl p`     | Up (when given a dropdown)       |
 | `ctrl i`     | Copilot inline chat `AI`         |
 | `ctrl alt i` | Copilot chat `AI`                |
+| `<leader> e` | Open file explorer               |
+| `ctrl b`     | Close / open explorer            |
 
 ### GOTOs
 
@@ -154,6 +159,19 @@ Due to how vscode works, you must first open vscode at least once for creation o
 | `<leader> b l` | Close editors to the left  |
 | `<leader> b o` | Close all other editors    |
 | `<leader> e`   | Focus file explorer        |
+
+### file explorer
+
+| Keybinding | Feature                                  |
+| ---------- | ---------------------------------------- |
+| `a`        | Create a new file                        |
+| `f`        | Create a new directory                   |
+| `d`        | Delete selected file/directory           |
+| `y`        | Copy selected file/directory             |
+| `p`        | Paste into selected directory            |
+| `x`        | Cut selected file/directory              |
+| `r`        | Rename selected file/directory           |
+| `o`        | Reveal file/directory in OS file manager |
 
 ### integrated terminal
 
