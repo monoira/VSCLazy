@@ -15,6 +15,7 @@
     - [search](#search)
     - [find](#find)
     - [code actions](#code-actions)
+    - [built-in keybindings](#built-in-keybindings)
   - [DONATE](#donate)
 
 Visual Studio Code DISTRO With:
@@ -102,6 +103,8 @@ Due to how vscode works, you must first open vscode at least once for creation o
 ## KEYBINDINGS
 
 ### fixes to vscode
+
+`<leader>` is set to `space`.
 
 | Keybinding   | Feature                          |
 | ------------ | -------------------------------- |
@@ -210,6 +213,13 @@ Due to how vscode works, you must first open vscode at least once for creation o
 | `<leader> c r` | Rename symbol                                    |
 | `<leader> c p` | Preview markdown                                 |
 | `<leader> c u` | Remove unused imports                            |
+
+### built-in keybindings
+
+| Keybinding            | Feature                      |
+| --------------------- | ---------------------------- |
+| `<leader> <leader> b` | Jump to word (before cursor) |
+| `<leader> <leader> w` | Jump to word (after cursor)  |
 
 **Disclaimer**  
 This project is purely a community-driven configuration setup and is not officially affiliated with or endorsed by Visual Studio Code (Microsoft), LazyVim, or any other commercial software vendor.
