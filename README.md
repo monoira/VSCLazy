@@ -30,7 +30,7 @@ And more sensible defaults For Maximum Productivity and Comfort.
 ├── profiles
 │   └── prof.code-profile
 ├── settings.json
-└── workspaces
+└── Workspaces
     └── PLACE YOUR WORKSPACES HERE
 ```
 
