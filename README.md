@@ -6,6 +6,7 @@
     - [WORKSPACES](#workspaces)
   - [KEYBINDINGS](#keybindings)
     - [fixes to vscode](#fixes-to-vscode)
+    - [AI](#ai)
     - [GOTOs](#gotos)
     - [hover](#hover)
     - [warnings and diagnostics](#warnings-and-diagnostics)
@@ -110,12 +111,18 @@ Due to how vscode works, you must first open vscode at least once for creation o
 | ------------ | -------------------------------- |
 | `<C-d>`      | Scroll down half page and center |
 | `<C-u>`      | Scroll up half page and center   |
+| `s`          | Search (EasyMotion)              |
 | `ctrl n`     | Down (when given a dropdown)     |
 | `ctrl p`     | Up (when given a dropdown)       |
-| `ctrl i`     | Copilot inline chat `AI`         |
-| `ctrl alt i` | Copilot chat `AI`                |
 | `<leader> e` | Open file explorer               |
 | `ctrl b`     | Close / open explorer            |
+
+### AI
+
+| Keybinding   | Feature                  |
+| ------------ | ------------------------ |
+| `ctrl i`     | Copilot inline chat `AI` |
+| `ctrl alt i` | Copilot chat `AI`        |
 
 ### GOTOs
 
