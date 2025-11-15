@@ -13,6 +13,10 @@
     {
       "before": ["<C-d>"],
       "after": ["1", "5", "g", "j", "z", "z"]
+    },
+    {
+      "before": ["s"],
+      "after": ["<leader>", "<leader>", "/"]
     }
   ],
 
