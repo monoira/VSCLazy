@@ -6,9 +6,10 @@
     - [WORKSPACES](#workspaces)
   - [KEYBINDINGS](#keybindings)
     - [fixes to vscode](#fixes-to-vscode)
+    - [navigation](#navigation)
     - [AI](#ai)
     - [GOTOs](#gotos)
-    - [hover](#hover)
+    - [hover over code](#hover-over-code)
     - [warnings and diagnostics](#warnings-and-diagnostics)
     - [buffers aka editors](#buffers-aka-editors)
     - [file explorer](#file-explorer)
@@ -111,11 +112,18 @@ Due to how vscode works, you must first open vscode at least once for creation o
 | ------------ | -------------------------------- |
 | `<C-d>`      | Scroll down half page and center |
 | `<C-u>`      | Scroll up half page and center   |
-| `s`          | Search (EasyMotion)              |
 | `ctrl n`     | Down (when given a dropdown)     |
 | `ctrl p`     | Up (when given a dropdown)       |
 | `<leader> e` | Open file explorer               |
 | `ctrl b`     | Close / open explorer            |
+
+### navigation
+
+| Keybinding            | Feature                                  |
+| --------------------- | ---------------------------------------- |
+| `s`                   | Search Word (EasyMotion)                 |
+| `<leader> <leader> b` | Jump to word (before cursor)(EasyMotion) |
+| `<leader> <leader> w` | Jump to word (after cursor)(EasyMotion)  |
 
 ### AI
 
@@ -136,7 +144,7 @@ Due to how vscode works, you must first open vscode at least once for creation o
 | `g y`          | Go to type definition |
 | `<leader> g g` | Focus source control  |
 
-### hover
+### hover over code
 
 | Keybinding | Feature              |
 | ---------- | -------------------- |
@@ -223,10 +231,8 @@ Due to how vscode works, you must first open vscode at least once for creation o
 
 ### built-in keybindings
 
-| Keybinding            | Feature                      |
-| --------------------- | ---------------------------- |
-| `<leader> <leader> b` | Jump to word (before cursor) |
-| `<leader> <leader> w` | Jump to word (after cursor)  |
+| Keybinding | Feature |
+| ---------- | ------- |
 
 **Disclaimer**  
 This project is purely a community-driven configuration setup and is not officially affiliated with or endorsed by Visual Studio Code (Microsoft), LazyVim, or any other commercial software vendor.
